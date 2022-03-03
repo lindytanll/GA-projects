@@ -82,31 +82,31 @@ Target Audience: College Board (i.e. the organization that administers the SAT).
 
 ### Brief summary of analysis
 
-**States with high SAT participation are those which made SAT mandatory while those with low participation are those which made ACT mandatory.
+* States with high SAT participation are those which made SAT mandatory while those with low participation are those which made ACT mandatory.
 
-**States with low participation generally had high SAT score and high participation had low score. Similarly for ACT.
-- This is likely due to statewide requirements. When students do not self select and take test as part of a requirement and only option, their scores tend to be lower ([*source*](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)). 
-- In contrast, students would voluntarily choose the test which they believe they would score higher on.
+* States with low participation generally had high SAT score and high participation had low score. Similarly for ACT.
+    - This is likely due to statewide requirements. When students do not self select and take test as part of a requirement and only option, their scores tend to be lower ([*source*](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)). 
+    - In contrast, students would voluntarily choose the test which they believe they would score higher on.
 
-**States with 100% participation for SAT typically continue to have high participation thereafter, due to it being made mandatory. Similarly for ACT. 
+* States with 100% participation for SAT typically continue to have high participation thereafter, due to it being made mandatory. Similarly for ACT. 
 
-For SAT:
-- Michigan had 100% participation since 2017.Colorado, Idaho, Illinois, and Rhode Island sustained close to 100% participation rate since 2018.
-- This is due to SAT being state-administered in these states (e.g. Illinois and Rhode Island made SAT mandatory in 2018, Colorado changed mandatory from ACT to SAT in 2017).
+    - For SAT:
+        - Michigan had 100% participation since 2017. Colorado, Idaho, Illinois, and Rhode Island sustained close to 100% participation rate since 2018.
+        - This is due to SAT being state-administered in these states (e.g. Illinois and Rhode Island made SAT mandatory in 2018, Colorado changed mandatory from ACT to SAT in 2017).
 
-For ACT:
-- Amongst 19 states, 16 states had less than 10% year-to-year change in participation rate.
-- This is also due to ACT being state-administered in these states.
+    - For ACT:
+        - Amongst 19 states, 16 states had less than 10% year-to-year change in participation rate.
+        - This is also due to ACT being state-administered in these states.
 
-**Amongst states with >50% participation for both tests, Florida and Gerogia are currently not mandated to take either test. 
-- From 2017-2019, Hawaii, North Carolina and South Carolina, which are mandated to take ACT, had more than 80% participation for ACT and about 50-60% participation for SAT.
-- For Florida and Gerogia, the participation rates are comparable between SAT and ACT but inversely related (e.g. Georgia's participation increased from 60% to 70% for SAT while decreased from 55% to 50% for ACT from 2017-2019).
+* Amongst states with >50% participation for both tests, Florida and Gerogia are currently not mandated to take either test. 
+    - From 2017-2019, Hawaii, North Carolina and South Carolina, which are mandated to take ACT, had more than 80% participation for ACT and about 50-60% participation for SAT.
+    - For Florida and Gerogia, the participation rates are comparable between SAT and ACT but inversely related (e.g. Georgia's participation increased from 60% to 70% for SAT while decreased from 55% to 50% for ACT from 2017-2019).
 
-**Median participation rate for SAT was relatively low (~55%), as compared to ACT (~65%), suggesting that there is room for improvement.
-- There are more extreme participation for SAT (about one-third of the states have either 100% or close to 0% participation).
-- ACT is more widely adopted by states (about one-third of the states having 100% participation).
+* Median participation rate for SAT was relatively low (~55%), as compared to ACT (~65%), suggesting that there is room for improvement.
+    - There are more extreme participation for SAT (about one-third of the states have either 100% or close to 0% participation).
+    - ACT is more widely adopted by states (about one-third of the states having 100% participation).
 
-**Since it is difficult to increase SAT participation for states which have adopted ACT, and states which have adopted SAT are likely to continue having high participation, we excluded states with mandatory tests, and recommend focusing resources on the other states to improve SAT participation.
+* Since it is difficult to increase SAT participation for states which have adopted ACT, and states which have adopted SAT are likely to continue having high participation, we excluded states with mandatory tests, and recommend focusing resources on the other states to improve SAT participation.
 
 ---
 
