@@ -1,4 +1,4 @@
-# ![] Project 1: Standardized Test Analysis
+# Project 1: Standardized Test Analysis
 
 
 ### Problem Statement
@@ -7,7 +7,7 @@ As an employee of the SAT College Board and part of a team to monitor statewide 
 * Explore trends in the participation of SAT, as well as ACT, over years from 2017-2019; and
 * Identify and provide recommendations on the states which we can focus our resources to improve SAT participation rates.
 
-Target Audience: College Board (i.e. the organization that administers the SAT)..
+Target Audience: College Board (i.e. the organization that administers the SAT).
 
 
 ---
@@ -118,7 +118,7 @@ Target Audience: College Board (i.e. the organization that administers the SAT).
         - Alaska
         - Oregon
         - Florida
-    * *Focus next*:States with relatively high participation rate, as compared to ACT participation:
+    * *Focus next*: States with relatively high participation rate, as compared to ACT participation:
         - Vermont
         - Virginia
         - Massachusetts
