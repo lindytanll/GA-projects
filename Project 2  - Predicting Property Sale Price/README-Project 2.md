@@ -1,4 +1,4 @@
-# ![] Project 2: Standardized Test Analysis
+# Project 2: Standardized Test Analysis
 
 
 ### Problem Statement
@@ -76,7 +76,7 @@ Target Audience: Customers (i.e. property owners)
 
 ### Model Exploration
 
-**Model 1 Feature Selection: Predict sale price using:
+Model 1 Feature Selection: Predict sale price using:
 (i) 10 numeric features with strong correlation with sale price (i.e. correlation > 0.5 or <-0.5) which do not have severe collinearity with each other (-0.8 < correlation < 0.8)
     - Overall qual, gross living area, garage area, 1st floor sqft, basement qual, year remodeled, fireplace qual, number of full bath, masonry veneer area, and age sold
 (ii) All categorical variables (transforming to 156 dummies) except those which have similar sale price distribution across groups and, logically, should not affect on sale price.
@@ -99,7 +99,7 @@ Target Audience: Customers (i.e. property owners)
         - Average RMSE based on CV on training data: 32,711 (average MSE: 1,070,018,975)
         - RMSE on holdout data: 27,289 (MSE: 744,716,493)
 
-**Model 2 Feature Selection: Predict sale price using:
+Model 2 Feature Selection: Predict sale price using:
 (i) 7 numeric features with strong correlation with sale price (i.e. correlation > 0.5 or <-0.5) which do not have high collinearity with each other (-0.6 < correlation < 0.6) (i.e. overall qual, gross living area, garage area, 1st floor sqft, fireplace qual, masonry veneer area, and age)
 (ii) 5 categorical features (transforming to 12 dummies) with high correlation with sale price (correlation >0.4 or <-0.4) (i.e. neighborhood, foundation poured concrete, masonry veneer type, garage finish, kitchen qual)
 
@@ -121,7 +121,7 @@ Target Audience: Customers (i.e. property owners)
         - Average RMSE based on CV on training data: 33,442 (average MSE: 1,118,418,964)
         - RMSE on holdout data: 28,308 (MSE: 801,383,154)
 
-**Model 3 Feature Selection: Predict sale price using:
+Model 3 Feature Selection: Predict sale price using:
 (i) 7 numeric features (transforming to 35 polynomial features) with strong correlation with sale price (i.e. correlation > 0.5 or <-0.5) which do not have high collinearity with each other (-0.6 < correlation < 0.6) (i.e. overall qual, gross living area, garage area, 1st floor sqft, fireplace qual, masonry veneer area, and age sold)
 (ii) 5 categorical features (transforming to 12 dummies) with high correlation with sale price (correlation >0.4 or <-0.4) (i.e. neighborhood, foundation poured concrete, masonry veneer type, garage finish, kitchen qual)
 
@@ -149,7 +149,7 @@ Target Audience: Customers (i.e. property owners)
 
 ### Final Model
 
-**Predict sale price using Linear Regression on 7 numeric features and 5 categorical features (Model 2) as it performs relatively well and is easily interpretable for property owners.
+Predict sale price using Linear Regression on 7 numeric features and 5 categorical features (Model 2) as it performs relatively well and is easily interpretable for property owners.
 
 * While features selected in Model 3 yield better performance than Model 1 and 2 (across Linear, Ridge, Lasso and Elastic Net), the coefficients in the model are hard to interpret.
 
@@ -165,7 +165,7 @@ Target Audience: Customers (i.e. property owners)
 
 ### Recommendation
 
-**Property owner can improve kitchen quality, fireplace quality, using the right materials for masonry veneer and foundation to enhance selling price.
+Property owner can improve kitchen quality, fireplace quality, using the right materials for masonry veneer and foundation to enhance selling price.
 
 * Based on the size of the coefficients, we can rank the importance of features and estimate the impact of sale price
 
@@ -197,7 +197,7 @@ Target Audience: Customers (i.e. property owners)
 
 ### Trade-off
 
-**Model found to perform the best may not be selected as final model to address the problem statement
+Model found to perform the best may not be selected as final model to address the problem statement
 
 * Lasso, Ridge and Elastic Net on polynomial transformation of the 7 numeric features and 5 categorical performs the best (Model 3).
 
@@ -209,7 +209,7 @@ Target Audience: Customers (i.e. property owners)
 
 ### Learning Points
 
-**Regularisation, through Ridge, Lasso and Elastic Net, can be used to shrink coefficients closer to 0, dropping out insignificant features.
+Regularisation, through Ridge, Lasso and Elastic Net, can be used to shrink coefficients closer to 0, dropping out insignificant features.
 
 * Pros of Regularisation:
     - Performs better than Linear regression especially when there are many features
