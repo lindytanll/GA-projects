@@ -171,6 +171,7 @@ Based on coefficient of Logistic Regression, we can interpret the importance of 
 * Despite this, the model performs quite well with ~80% accuracy, sensitivity (proportion of /mommit posts being right classified) and specificity (proportion of /daddit posts being right classified)
     - Allow us to reasonably right classify 80% of posts for monitoring of discussions by moms and dads
 * Possible targeted topics to focus in articles for moms and dads:
+
 | |Moms|Dads|Both Parents|
 |-----|----------|----------|----------|
 |Topics|Pregnancy, Postpartum mental health, Breastfeeding, Getting husband’s help, Taming crying baby, Putting baby to sleep and sleep training, Car seat and stroller travel system|Video games with children, Helping wives who are pregnant or giving birth, White noise machine to help baby sleep, Custody for divorcees|Managing disease such as COVID and HFMD, Potty training, Stay home with children|
